@@ -4,6 +4,7 @@ import os
 import shutil
 import zipfile
 import hashlib
+from importlib.resources import files
 from tools.helper import download_file, get_download_dir, host
 from tools import container
 from tools.logger import Logger
@@ -73,8 +74,7 @@ class General:
         if not os.path.isfile(os.path.join(bin_dir, "resetprop")):
             if not os.path.exists(bin_dir):
                 os.makedirs(bin_dir)
-            shutil.copy(os.path.join(
-                "./bin", self.arch[0], "resetprop"), bin_dir)
+            shutil.copy(files("waydroid_script.bin") / self.arch[0] / "resetprop"), bin_dir)
             os.chmod(os.path.join(bin_dir, "resetprop"), 0o755)
         if not os.path.isfile(os.path.join(bin_dir, "resetprop.sh")):
             with open(os.path.join(bin_dir, "resetprop.sh"), "w") as f:

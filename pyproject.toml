@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "waydroid-script"
+version = "0.0.1"
+authors = [
+	{ name="casualsnek", email="casualsnel@pm.me" },
+	]
+description = "Script to add gapps and other stuff to waydroid !"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+	"Operating System :: OS Independent",
+	]
+dependencies = [
+	"tqdm",
+	"requests",
+	"InquirerPy",
+	]
+
+[project.urls]
+"Homepage" = "https://github.com/casualsnek/waydroid_script"
+"Bug Tracker" = "https://github.com/casualsnek/waydroid_script/issues"
+
+[project.scripts]
+waydroid_script = "waydroid_scripts.main:main"
+
+[tool.hatch.build]
+exclude = [
+	"assets",
+	]
