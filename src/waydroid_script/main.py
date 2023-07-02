@@ -5,24 +5,22 @@ from InquirerPy.separator import Separator
 import argparse
 import os
 from typing import List
-from stuff.android_id import AndroidId
-from stuff.gapps import Gapps
-from stuff.general import General
-from stuff.hidestatusbar import HideStatusBar
-from stuff.houdini import Houdini
-from stuff.magisk import Magisk
-from stuff.microg import MicroG
-from stuff.ndk import Ndk
-from stuff.nodataperm import Nodataperm
-from stuff.smartdock import Smartdock
-from stuff.widevine import Widevine
-import tools.helper as helper
-from tools import container
-from tools import images
+from waydroid_script.stuff.android_id import AndroidId
+from waydroid_script.stuff.gapps import Gapps
+from waydroid_script.stuff.general import General
+from waydroid_script.stuff.hidestatusbar import HideStatusBar
+from waydroid_script.stuff.houdini import Houdini
+from waydroid_script.stuff.magisk import Magisk
+from waydroid_script.stuff.microg import MicroG
+from waydroid_script.stuff.ndk import Ndk
+from waydroid_script.stuff.nodataperm import Nodataperm
+from waydroid_script.stuff.smartdock import Smartdock
+from waydroid_script.stuff.widevine import Widevine
+import waydroid_script.tools.helper as helper
+from waydroid_script.tools import container
+from waydroid_script.tools import images
 
-import argparse
-
-from tools.logger import Logger
+from waydroid_script.tools.logger import Logger
 
 
 def get_certified(args):

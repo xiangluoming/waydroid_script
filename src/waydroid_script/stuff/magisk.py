@@ -2,10 +2,10 @@ import gzip
 import os
 import shutil
 import re
-from stuff.general import General
-from tools.helper import download_file, get_data_dir, host
-from tools.logger import Logger
-from tools import container
+from waydroid_script.stuff.general import General
+from waydroid_script.tools.helper import download_file, get_data_dir, host
+from waydroid_script.tools.logger import Logger
+from waydroid_script.tools import container
 
 class Magisk(General):
     id = "magisk delta"

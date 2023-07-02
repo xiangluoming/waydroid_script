@@ -2,8 +2,8 @@ import configparser
 import os
 import sys
 # import dbus
-from tools.helper import run
-from tools.logger import Logger
+from waydroid_script.tools.helper import run
+from waydroid_script.tools.logger import Logger
 
 # def DBusContainerService(object_path="/ContainerManager", intf="id.waydro.ContainerManager"):
 #     return dbus.Interface(dbus.SystemBus().get_object("id.waydro.Container", object_path), intf)

@@ -1,9 +1,9 @@
 import gzip
 import os
 import shutil
-from stuff.general import General
-from tools.logger import Logger
-from tools import container
+from waydroid_script.stuff.general import General
+from waydroid_script.tools.logger import Logger
+from waydroid_script.tools import container
 
 
 class Nodataperm(General):

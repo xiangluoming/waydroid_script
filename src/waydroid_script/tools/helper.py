@@ -5,7 +5,7 @@ import re
 import subprocess
 import sys
 import requests
-from tools.logger import Logger
+from waydroid_script.tools.logger import Logger
 from tqdm import tqdm
 import hashlib
 from typing import Optional

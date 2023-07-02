@@ -1,6 +1,6 @@
 import os
 import shutil
-from stuff.general import General
+from waydroid_script.stuff.general import General
 
 
 class HideStatusBar(General):

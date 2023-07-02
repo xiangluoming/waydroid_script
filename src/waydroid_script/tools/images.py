@@ -2,8 +2,8 @@ import configparser
 import os
 import subprocess
 import sys
-from tools.helper import run
-from tools.logger import Logger
+from waydroid_script.tools.helper import run
+from waydroid_script.tools.logger import Logger
 
 def mount(image, mount_point):
     umount(mount_point, False)

@@ -1,6 +1,6 @@
-from tools import container
-from tools.helper import shell
-from tools.logger import Logger
+from waydroid_script.tools import container
+from waydroid_script.tools.helper import shell
+from waydroid_script.tools.logger import Logger
 
 
 class AndroidId:

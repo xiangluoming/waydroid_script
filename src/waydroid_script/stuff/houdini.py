@@ -1,8 +1,8 @@
 import os
 import re
 import shutil
-from stuff.general import General
-from tools.logger import Logger
+from waydroid_script.stuff.general import General
+from waydroid_script.tools.logger import Logger
 
 
 class Houdini(General):

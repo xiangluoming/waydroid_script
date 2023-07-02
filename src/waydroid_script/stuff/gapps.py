@@ -1,7 +1,7 @@
 import os
 import shutil
-from stuff.general import General
-from tools.helper import run
+from waydroid_script.stuff.general import General
+from waydroid_script.tools.helper import run
 
 
 class Gapps(General):

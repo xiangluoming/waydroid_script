@@ -27,7 +27,7 @@ dependencies = [
 "Bug Tracker" = "https://github.com/casualsnek/waydroid_script/issues"
 
 [project.scripts]
-waydroid_script = "waydroid_scripts.main:main"
+waydroid_script = "waydroid_script.main:main"
 
 [tool.hatch.build]
 exclude = [
